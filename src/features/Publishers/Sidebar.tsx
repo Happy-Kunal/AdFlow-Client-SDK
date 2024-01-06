@@ -5,7 +5,8 @@ const Sidebar = () => {
     <aside className="min-h-[90vh] sm:min-w-[15.72rem] border-r-2 pt-8 px-6 block">
       <ul className="flex flex-col h-4/5 text-primary font-semibold gap-4 mt-16 w-full">
         <Element url="dashboard" name="Dashboard" />
-        <Element url="publish-ad" name="Your Ads" />
+        <Element url="your-site" name="Your Sites" />
+        <Element url="ad-units" name="Ad" />
         <Element url="account" name="Accounts" />
         <Element url="payments" name="Payments" />
         <Element url="chat" name="Chat with Us" />
